@@ -191,7 +191,7 @@ We begin our investigation by examining the variable of interest, price, through
 \begin{figure}[!ht]
 	\centering
 	   \begin{tabular}{cc}
-	      \includegraphics[width = 0.5\textwidth]{price.png}  & \includegraphics[width = 0.5\textwidth]{logprice.png} 
+	      \includegraphics[width = 0.5\textwidth]{images/price.png}  & \includegraphics[width = 0.5\textwidth]{images/logprice.png} 
 	   \end{tabular}
 	\caption{Boxplots of price and log-price.}
 	\label{figure:uncapped boxplot}
@@ -202,7 +202,7 @@ Both the price and log-price distributions are severely distorted by outliers; c
 \begin{figure}[!ht]
 	\centering
 	   \begin{tabular}{cc}
-	      \includegraphics[width = 0.5\textwidth]{price_dense.png}  & \includegraphics[width = 0.5\textwidth]{logprice_dense.png} 
+	      \includegraphics[width = 0.5\textwidth]{images/price_dense.png}  & \includegraphics[width = 0.5\textwidth]{images/logprice_dense.png} 
 	   \end{tabular}
 	\caption{Density plots of price and log price after capping at 5$^{th}$ and 95$^{th}$ quantiles.}
 	\label{figure:capped density}
@@ -216,14 +216,14 @@ We next investigate the possible response variables. We plot box-plots and scatt
 
 	\begin{figure}[!ht]
 	\centering
-	    \includegraphics[width = 0.7\textwidth]{resp_box.png}
+	    \includegraphics[width = 0.7\textwidth]{images/resp_box.png}
 	\caption{Log-price vs categorical predictors.}
 	\label{figure:resp box}
     \end{figure}
 
 	\begin{figure}[!ht]
 	\centering
-	    \includegraphics[width = 0.7\textwidth]{resp_scatter.png}
+	    \includegraphics[width = 0.7\textwidth]{images/resp_scatter.png}
 	\caption{Log-price vs continuous predictors.}
 	\label{figure:resp scatter}
     \end{figure}
@@ -232,7 +232,7 @@ There appears to be a wide variation across the pricing tendencies of the variou
 
 	\begin{figure}[!ht]
 	\centering
-	    \includegraphics[width = 0.7\textwidth]{conts_var_pairs.png}
+	    \includegraphics[width = 0.7\textwidth]{images/conts_var_pairs.png}
 	\caption{Correlation between continuous variables.}
 	\label{figure:conts coll}
     \end{figure}
@@ -247,7 +247,7 @@ The trends that we have observed during our exploratory data analysis provide us
 	
 	\begin{figure}[!ht]
 	\centering
-	    \includegraphics[width = 0.7\textwidth]{mixturedist.png}
+	    \includegraphics[width = 0.7\textwidth]{images/mixturedist.png}
 	    \\
 	    \begin{tabular}{lrr}
 	         \textbf{Curve} & \textbf{$\mu$} & \textbf{$\sigma$} \\
@@ -322,7 +322,7 @@ After analyzing the data, we arrive at the conclusion that the price of an autom
 
 \begin{figure}[!ht]
 	\centering
-		\includegraphics[width = 0.85\textwidth]{shrinkage.png}
+		\includegraphics[width = 0.85\textwidth]{images/shrinkage.png}
 	\caption{Plot of MSE by of shrinkage penalty.}
 \end{figure}
 
